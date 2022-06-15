@@ -81,7 +81,7 @@ If you are using RHEL, you'll need to install the icu package.  See the [icu ins
 
 # Windows Installation
 
-Python is not installed by default on Windows.  The latest Python installation package can be downloaded from [here](https://www.python.org/downloads/).  When installing, select the 'Add Python to PATH' option.  Python must be in the PATH environment variable.
+Python is not installed by default on Windows.  The latest Python installation package can be downloaded from [here](https://www.python.org/downloads/).  When installing, select the 'Add Python to PATH' option.  Python must be in the PATH environment variable. Ensure that both '/PythonXX' and '/PythonXX/Scripts' are in your 'Path' option, otherwise you will get 'Python Not Found' error while executing mssql-scripter commands
 
 Once Python is installed and in the PATH environment variable, open a command prompt, and install mssql-scripter using the command:
 ```shell
